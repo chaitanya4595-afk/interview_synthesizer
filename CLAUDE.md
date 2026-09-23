@@ -11,6 +11,7 @@ next two years, and what would have to be true?
 ## Topics (use only these tags)
 Customer demand, Quality and brand perception, Margin and pricing,
 Supplier capacity, Store operations, Competition, Other
+A sensible option: When a claim fits two topics, tag the root cause, not the symptom.
 
 ## Rules
 * Quotes are always verbatim. Never fix grammar inside a quote.
