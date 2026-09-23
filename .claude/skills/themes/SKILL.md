@@ -34,3 +34,4 @@ Why it matters for the case question: <one sentence>
 * Themes are ranked by how much they matter to the case question, not by count alone.
 * A theme supported by only one interview must be labeled "Single source".
 * Never add quotes or numbers that are not in the extracts.
+* Support and against counts come only from quoted claims, never from the stance line.

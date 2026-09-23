@@ -1,0 +1,6 @@
+# Build log
+
+## 2026-09-23: themes v2
+* Themes v1 counted INT02 as against Theme 1 using its stance line ("overdue"), not a quoted claim.
+* Added a rule to the themes skill: support and against counts come only from quoted claims, never from the stance line.
+* In v2, INT02's quotes actually support staging ("do it category by category", "let the stores that are ready go first"), so INT02 moved to support on Theme 1.
