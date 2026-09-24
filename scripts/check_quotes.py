@@ -37,8 +37,12 @@ def normalize(text):
 
 
 def numbers_in(text):
-    """Return the digit numbers in text, e.g. '$4,000 and 6.49%' -> ['4000', '6.49']."""
+    """Return the digit numbers in text, e.g. '$4,000 and 6.49%' -> ['4000', '6.49'].
+
+    Interview ids are skipped, whether bracketed ([INT01-INT08]) or inline (INT08 says).
+    """
     text = CITE_RE.sub(" ", text)
+    text = re.sub(r"\bINT\d+\b", " ", text)
     text = re.sub(r"(?<=\d),(?=\d{3}\b)", "", text)
     return NUMBER_RE.findall(text)
 

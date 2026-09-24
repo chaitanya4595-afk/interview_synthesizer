@@ -27,3 +27,7 @@ Write output/memo.md, 400 words at most:
 * Every quote is copied exactly from work/themes.md.
 * If a theme is labeled Single source, say so in the memo.
 * No new facts, numbers or quotes beyond what is in work/themes.md.
+* When describing disagreement, name who disagrees and quote them. Never call a dissent "the only one" unless you checked every theme.
+* If a number comes from one interview, attribute it ("one co-packer says 70%"), never state it as a general fact.
+* If the evidence suggests a better target than the one in the case question, state it in the Answer.
+* The "what would have to be true" part of the Answer must include every condition raised by two or more interviews.
