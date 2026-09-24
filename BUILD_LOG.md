@@ -15,6 +15,7 @@
   * The 25% target is a judgment call flagged for human review.
 
 ## 2026-09-24: v1.1
+* Note: These numbers come from a partial rerun (themes onward, same session as the previous critic review), not a clean /synthesize run. A clean timed run will be recorded with the demo video.
 * Run finished 2026-09-24 12:39 EDT. Partial run: reused the v1.0 extracts and reran themes, memo, check_quotes.py and the critic. Run time was not measured, so it is not comparable to v1.0's 6 min 50 s.
 * Themes skill fix: headlines are written before counting; each interview counts once per theme as Support, Mixed or Against; every real disagreement stays in the disagreements section.
 * Themes now show dissent: Theme 2 Mixed [INT04], Theme 3 Against [INT02], Theme 5 Mixed [INT02].
