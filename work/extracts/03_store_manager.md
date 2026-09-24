@@ -1,18 +1,18 @@
 # Extract: INT03, Store manager (rural store, small-town market)
 Stance on the case question: Mixed
-Reason for stance: Wants more private label to fight a new discounter, but sees doubling as a headquarters number and would support it only with better rural supply, a bigger price gap and a category-by-category rollout.
+Reason for stance: Wants more private label to fight the discounter but sees doubling as a headquarters number and fears losing brand-loyal shoppers and supply holes.
 
 | # | Claim (one line, your words) | Exact quote | Topic | Numbers |
 |---|---|---|---|---|
-| 1 | A nearby discounter opening cost the store a meaningful share of transactions. | "We lost roughly 9% of our transactions in the first six months." | Competition | roughly 9%, first six months |
-| 2 | The shoppers who stayed are brand-loyal, so pulling brands risks losing them too. | "If I take their ketchup off the shelf, I'm giving them a reason to leave too." | Customer demand | |
-| 3 | Doubling in two years is a top-down target that doesn't fit this store. | "I think we need more of it, but doubling in two years feels like a headquarters number, not a store number." | Other | two years |
-| 4 | Private label is about 19% of sales here today. | "My private label is around 19% today." | Customer demand | around 19% |
-| 5 | Rural stores seem to be shorted first when store-brand items run short at the DC. | "When store-brand items are short at the DC, the rural stores get shorted first, or that's how it feels." | Supplier capacity | |
-| 6 | Larger private label case packs overwhelm small back rooms. | "Last time they changed the case pack on our store-brand paper towels, I had pallets sitting in the aisle for a week." | Store operations | |
-| 7 | Shoppers accept store brand on basics but not on strong-flavored items. | "On anything with a strong taste, not so much." | Quality and brand perception | |
-| 8 | Store-brand deli meat outsells the brands. | "Our store-brand deli meat does really well, better than the brands honestly, and that surprised me." | Quality and brand perception | |
-| 9 | Against promoted brands, the store-brand price gap is too small to matter. | "Right now some of our store-brand items are only 10 or 15 cents cheaper than the brand when the brand is on promotion." | Margin and pricing | 10 or 15 cents |
-| 10 | Suppliers should be asked whether they can scale before any commitment is made. | "I'd want someone to ask the suppliers that question before we promise anything to customers." | Supplier capacity | |
-| 11 | A target-driven push could lose remaining shoppers without winning back those who left. | "If it's just a percentage target on a slide, I'm worried we'll lose the customers we still have without winning back the ones we lost." | Customer demand | |
-| 12 | Expand store brand in fresh before coffee or snacks, where it is already proven. | "I'd put store brand in more of fresh before I'd push it in coffee or snacks." | Other | |
+| 1 | A new discounter took about 9% of transactions in six months | "We lost roughly 9% of our transactions in the first six months." | Competition | 9% |
+| 2 | Shoppers who left went to the discounter for its private label | "the people who left were mostly the price shoppers, and they went there for the private label, basically." | Competition | |
+| 3 | Remaining shoppers stay for familiar brands; pulling them risks losing these shoppers too | "If I take their ketchup off the shelf, I'm giving them a reason to leave too." | Customer demand | |
+| 4 | Private label is about 19% here; mid-twenties would be a good outcome | "My private label is around 19% today. If I got into the mid-twenties, I'd be happy." | Customer demand | 19% |
+| 5 | Doubling feels like a headquarters target, not a store target | "doubling in two years feels like a headquarters number, not a store number." | Customer demand | |
+| 6 | Rural stores get shorted first when store brand is short at the DC | "When store-brand items are short at the DC, the rural stores get shorted first, or that's how it feels." | Supplier capacity | |
+| 7 | Bigger private label case packs do not fit small back rooms | "Private label often comes in bigger case packs because that's how we get the cost down." | Store operations | |
+| 8 | Shoppers reject store brand in strong-taste items like coffee, peanut butter, barbecue sauce | "On anything with a strong taste, not so much." | Quality and brand perception | |
+| 9 | Store-brand deli meat outsells brands, pointing to fresh as an opportunity | "Our store-brand deli meat does really well, better than the brands honestly, and that surprised me." | Customer demand | |
+| 10 | Price gap is too small when brands are on promotion | "Right now some of our store-brand items are only 10 or 15 cents cheaper than the brand when the brand is on promotion." | Margin and pricing | 10, 15 |
+| 11 | Ask suppliers about capacity before promising customers anything | "I'd want someone to ask the suppliers that question before we promise anything to customers." | Supplier capacity | |
+| 12 | Test in stores near discounters to see if price shoppers return | "And maybe a test in a couple of stores like mine to see what the discounter shoppers do." | Competition | |
