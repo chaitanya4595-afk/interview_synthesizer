@@ -13,3 +13,21 @@
   * Every theme shows "Against: 0".
   * The memo omits the disagreements in themes.md.
   * The 25% target is a judgment call flagged for human review.
+
+## 2026-09-24: v1.1
+* Run finished 2026-09-24 12:39 EDT. Partial run: reused the v1.0 extracts and reran themes, memo, check_quotes.py and the critic. Run time was not measured, so it is not comparable to v1.0's 6 min 50 s.
+* Themes skill fix: headlines are written before counting; each interview counts once per theme as Support, Mixed or Against; every real disagreement stays in the disagreements section.
+* Themes now show dissent: Theme 2 Mixed [INT04], Theme 3 Against [INT02], Theme 5 Mixed [INT02].
+* The memo names and quotes both sides on the pace of doubling and on what drives shoppers away.
+* Quotes 105/105 and numbers 33/33 verified (v1.0: 101/101 and 36/36).
+* Critic verdicts, v1.0 to v1.1:
+  * Supported: 20 to 22
+  * Thin: 5 to 9
+  * Overstated: 4 to 1
+  * Unsupported: 0 to 0
+  * Total claims: 29 to 32
+* Known issues for v1.2:
+  * The critic says dissent is still undercounted, partly because each claim belongs to one theme only.
+  * One Overstated claim: the memo says starting in frozen vegetables "clashes" with dairy and frozen capacity.
+  * The answer gives no target number or time frame. The 25% target was dropped because it came from a peer benchmark.
+  * themes.md leaves out the case for growing (19% against a peer average of about 25%, and a discounter taking about 9% of transactions), so the memo cannot use it.

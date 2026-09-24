@@ -1,7 +1,7 @@
 # Quality report
 
-**Quote pass rate:** 101/101 (100.0%)  
-**Number pass rate:** 36/36 (100.0%)
+**Quote pass rate:** 105/105 (100.0%)  
+**Number pass rate:** 33/33 (100.0%)
 
 ## Quote check
 
@@ -103,13 +103,17 @@ Each quote is checked word for word against its transcript in input/, ignoring w
 | PASS | INT08 | work/extracts/08_category_vp.md row 10 | "If we cut their space significantly, some of that goes away." |  |
 | PASS | INT08 | work/extracts/08_category_vp.md row 11 | "The price gap has to be big enough that customers feel it." |  |
 | PASS | INT08 | work/extracts/08_category_vp.md row 12 | "Stores need labor to execute the resets." |  |
-| PASS | INT08 | output/memo.md line 5 | "You can't double share with a brand people are embarrassed to put in their cart." |  |
-| PASS | INT01 | output/memo.md line 5 | "You lose somebody on one product and they don't try the next one." |  |
-| PASS | INT05 | output/memo.md line 8 | "Our plant is running at close to 90% most of the year, and in summer we're basically at capacity because of ice cream." |  |
-| PASS | INT02 | output/memo.md line 11 | "We're at about 27% of sales in private label, and I think we could be higher if we had more of it." |  |
-| PASS | INT06 | output/memo.md line 11 | "If they just made the store brand better and cheaper and left the brands there, I'd probably buy more of it." |  |
-| PASS | INT02 | output/memo.md line 14 | "The price gap has to be real, like 20 to 30% under the brand, not five cents." |  |
-| PASS | INT05 | output/memo.md line 14 | "It's real, but it's smaller in dairy than people think." |  |
+| PASS | INT08 | output/memo.md line 5 | "I'll be honest, I think that's a stretch in two years." |  |
+| PASS | INT03 | output/memo.md line 5 | "doubling in two years feels like a headquarters number, not a store number." |  |
+| PASS | INT02 | output/memo.md line 5 | "I think we could be higher if we had more of it." |  |
+| PASS | INT08 | output/memo.md line 8 | "You can't double share with a brand people are embarrassed to put in their cart." |  |
+| PASS | INT01 | output/memo.md line 8 | "You lose somebody on one product and they don't try the next one." |  |
+| PASS | INT05 | output/memo.md line 11 | "in summer we're basically at capacity because of ice cream." |  |
+| PASS | INT04 | output/memo.md line 11 | "I'd be careful about assuming all suppliers have spare room like we do." |  |
+| PASS | INT03 | output/memo.md line 14 | "If I take their ketchup off the shelf, I'm giving them a reason to leave too." |  |
+| PASS | INT02 | output/memo.md line 14 | "When I don't have it, they go to the discounter up the street." |  |
+| PASS | INT08 | output/memo.md line 14 | "If we cut their space significantly, some of that goes away." |  |
+| PASS | INT05 | output/memo.md line 14 | "smaller in dairy than people think." |  |
 
 ## Number check
 
@@ -143,13 +147,10 @@ Every number in an extract claim must appear in that row's quote or Numbers colu
 | PASS | 35 | work/extracts/08_category_vp.md row 2 | Private label gross margin is about 32 to 35% versus about 25% on national brands |  |
 | PASS | 25 | work/extracts/08_category_vp.md row 2 | Private label gross margin is about 32 to 35% versus about 25% on national brands |  |
 | PASS | 400 | work/extracts/08_category_vp.md row 4 | Doubling in two years needs about 400 new items, a packaging redesign, supplier investment and chain-wide resets |  |
-| PASS | 19 | output/memo.md line 2 | **Answer:** Grow private label, but not by doubling chain-wide in two years; a better target is moving from about 19% to the roughly 25% peer average [INT08], flexed by store cluster and category. It works only with a brand relaunch, a visible price gap, reliable in-stocks and volume commitments to suppliers. |  |
-| PASS | 25 | output/memo.md line 2 | **Answer:** Grow private label, but not by doubling chain-wide in two years; a better target is moving from about 19% to the roughly 25% peer average [INT08], flexed by store cluster and category. It works only with a brand relaunch, a visible price gap, reliable in-stocks and volume commitments to suppliers. |  |
-| PASS | 70 | output/memo.md line 8 | One dry grocery co-packer runs at about 70% utilization [INT04], while one dairy and frozen maker says "Our plant is running at close to 90% most of the year, and in summer we're basically at capacity because of ice cream." [INT05]. |  |
-| PASS | 90 | output/memo.md line 8 | One dry grocery co-packer runs at about 70% utilization [INT04], while one dairy and frozen maker says "Our plant is running at close to 90% most of the year, and in summer we're basically at capacity because of ice cream." [INT05]. |  |
-| PASS | 27 | output/memo.md line 11 | A value-store manager says "We're at about 27% of sales in private label, and I think we could be higher if we had more of it." [INT02]. Suburban and rural managers warn that pulling brands sends loyal shoppers away [INT01, INT03], and one shopper says "If they just made the store brand better and cheaper and left the brands there, I'd probably buy more of it." [INT06]. |  |
-| PASS | 32 | output/memo.md line 14 | The VP cites 32 to 35% gross margin on private label versus about 25% on brands [INT08], but one store manager says "The price gap has to be real, like 20 to 30% under the brand, not five cents." [INT02]. The dairy supplier adds "It's real, but it's smaller in dairy than people think." [INT05]. |  |
-| PASS | 35 | output/memo.md line 14 | The VP cites 32 to 35% gross margin on private label versus about 25% on brands [INT08], but one store manager says "The price gap has to be real, like 20 to 30% under the brand, not five cents." [INT02]. The dairy supplier adds "It's real, but it's smaller in dairy than people think." [INT05]. |  |
-| PASS | 25 | output/memo.md line 14 | The VP cites 32 to 35% gross margin on private label versus about 25% on brands [INT08], but one store manager says "The price gap has to be real, like 20 to 30% under the brand, not five cents." [INT02]. The dairy supplier adds "It's real, but it's smaller in dairy than people think." [INT05]. |  |
-| PASS | 20 | output/memo.md line 14 | The VP cites 32 to 35% gross margin on private label versus about 25% on brands [INT08], but one store manager says "The price gap has to be real, like 20 to 30% under the brand, not five cents." [INT02]. The dairy supplier adds "It's real, but it's smaller in dairy than people think." [INT05]. |  |
-| PASS | 30 | output/memo.md line 14 | The VP cites 32 to 35% gross margin on private label versus about 25% on brands [INT08], but one store manager says "The price gap has to be real, like 20 to 30% under the brand, not five cents." [INT02]. The dairy supplier adds "It's real, but it's smaller in dairy than people think." [INT05]. |  |
+| PASS | 9 | output/memo.md line 2 | **Answer:** Grow private label, but set a chain target that flexes by store cluster and category rather than doubling everywhere in two years. It works only if quality and packaging are fixed, the price gap is visible, shelves stay in stock and suppliers get volume commitments now, as one co-packer puts new items at 9 to 12 months [INT04]. |  |
+| PASS | 12 | output/memo.md line 2 | **Answer:** Grow private label, but set a chain target that flexes by store cluster and category rather than doubling everywhere in two years. It works only if quality and packaging are fixed, the price gap is visible, shelves stay in stock and suppliers get volume commitments now, as one co-packer puts new items at 9 to 12 months [INT04]. |  |
+| PASS | 27 | output/memo.md line 5 | The VP says "I'll be honest, I think that's a stretch in two years." [INT08], and a rural manager says "doubling in two years feels like a headquarters number, not a store number." [INT03]. The value-store manager disagrees: at about 27% private label, "I think we could be higher if we had more of it." [INT02]. |  |
+| PASS | 70 | output/memo.md line 11 | The dairy and frozen supplier says "in summer we're basically at capacity because of ice cream." [INT05] One dry grocery co-packer says its lines run at about 70% but warns "I'd be careful about assuming all suppliers have spare room like we do." [INT04]. This clashes with the VP's wish to start in frozen vegetables [INT08]. |  |
+| PASS | 32 | output/memo.md line 14 | "If I take their ketchup off the shelf, I'm giving them a reason to leave too." [INT03] The value-store manager warns of the opposite: "When I don't have it, they go to the discounter up the street." [INT02]. The VP puts margin at 32 to 35% against about 25% for brands but warns "If we cut their space significantly, some of that goes away." [INT08], and INT05 calls it "smaller in dairy than people think." [INT05] |  |
+| PASS | 35 | output/memo.md line 14 | "If I take their ketchup off the shelf, I'm giving them a reason to leave too." [INT03] The value-store manager warns of the opposite: "When I don't have it, they go to the discounter up the street." [INT02]. The VP puts margin at 32 to 35% against about 25% for brands but warns "If we cut their space significantly, some of that goes away." [INT08], and INT05 calls it "smaller in dairy than people think." [INT05] |  |
+| PASS | 25 | output/memo.md line 14 | "If I take their ketchup off the shelf, I'm giving them a reason to leave too." [INT03] The value-store manager warns of the opposite: "When I don't have it, they go to the discounter up the street." [INT02]. The VP puts margin at 32 to 35% against about 25% for brands but warns "If we cut their space significantly, some of that goes away." [INT08], and INT05 calls it "smaller in dairy than people think." [INT05] |  |
