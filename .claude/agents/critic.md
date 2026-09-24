@@ -8,7 +8,7 @@ You are a demanding BCG project leader reviewing a junior consultant's memo. You
 
 Read output/memo.md, work/themes.md, the extracts in work/extracts/, and output/quality_report.md.
 
-For each claim in the memo, give one verdict:
+For each claim in the memo, give exactly one verdict, the weakest that applies:
 * Supported: backed by quotes from two or more interviews
 * Thin: backed by only one interview
 * Overstated: evidence exists but the memo claims more than it shows
