@@ -1,68 +1,86 @@
 # Critic review: output/memo.md (Northfield Markets private label)
 
 **Summary**
-1. The direction holds up: most claims are well sourced, quotes and numbers pass, and no claim is invented. Of 29 claims, 20 are Supported, 5 Thin, 4 Overstated and 0 Unsupported.
-2. The headline number does not follow from the evidence. The "19% to 25%" target cites [INT08], but INT08 gave 25% only as a peer benchmark. The VP actually said "a real step up" in two years and "doubling is possible over a longer horizon", and the memo never tests the target against dairy capacity (about 20% headroom [INT05]) or the 9 to 12 month lead times [INT04].
-3. The memo drops every disagreement the themes file listed. It also turns INT02 from a margin bull into a margin skeptic, and it ignores the VP's advice to start with frozen vegetables, which runs against title 2.
+1. Of 32 claims, 22 are Supported, 9 Thin, 1 Overstated and 0 Unsupported. All quotes and numbers pass (quality report 105/105, 33/33). The weak points are single-source body facts and one invented clash: INT08 on frozen vegetables versus INT05.
+2. Disagreements: yes, mostly. The memo names and quotes both sides on pace (INT08, INT03 vs INT02) and on what drives shoppers away (INT03 vs INT02). It also covers the margin prize (INT08 vs INT05, but on different scopes). It overstates the frozen "clash", leaves INT05's "not realistic" and INT04's dry-grocery-only optimism out of the pace split, and ignores the category counter-evidence to "embarrassing brand" (INT07 tomatoes, INT03 deli).
+3. The Support/Mixed/Against counts in work/themes.md are only partly credible. The arithmetic now works (no interview counted twice, no theme above 8), but Themes 1, 3 and 4 understate dissent, Theme 4 counts INT02 as Support while the file's own disagreement section treats INT02 as the opposing view, and Theme 5 counts INT03 on a price-gap quote. The answer follows from the evidence but gives no target number or time frame, and three of the four titles are vague or obvious.
 
 ## Claim table
 
 | # | Claim (memo location) | Verdict | Reason | Suggested fix |
 |---|---|---|---|---|
-| 1 | Do not double chain-wide in two years (Answer) | Supported | INT08 row 3 ("a stretch in two years"), INT03 row 5 ("headquarters number"), INT05 row 5 (dairy and frozen "not realistic"), INT01 stance (aggressive for suburban). | Keep, but name the dissent: INT02 calls doubling overdue and INT04 calls it realistic in dry grocery. |
-| 2 | A better target is about 19% to the roughly 25% peer average [INT08] (Answer) | Overstated | INT08 row 1 gives 25% as "context" (a benchmark), not a recommendation. The INT08 transcript says "a real step up in two years is achievable" and "doubling is possible over a longer horizon". INT03 row 4 wants the mid-twenties for one store, not the chain. Nobody proposed 25% as the chain target. Going from 19 to 25 is about +32% private label sales, more than the roughly 20% headroom INT05 row 2 gives without new capital. | Label 25% as the team's inference from the peer benchmark, not INT08's view. Show that it fits capacity by category. Add the time frame: step up now, double over a longer horizon [INT08]. |
-| 3 | Flex the target by store cluster and category (Answer) | Supported | INT08 row 9, INT01 row 12, INT05 row 10, INT03 row 5. | None. |
-| 4 | Works only with brand relaunch, visible price gap, reliable in-stocks, supplier volume commitments (Answer) | Supported | Each of the four has 3 or more interviews (see conditions rows 17, 19, 20, 22). | Consider adding lead time and HQ team capacity (see Omissions). |
-| 5 | Shoppers distrust the store brand (Title 1) | Supported | INT08 row 5, INT06 row 12, INT07 row 6, INT01 row 10. | Cite INT06 or INT07 in the body so the claim is not resting on the VP alone. |
-| 6 | One bad product costs the whole line (Title 1) | Thin | Only INT01 row 4 speaks to the whole line. INT06 row 5 describes loss within one category ("anything for the baby"). The INT05 transcript has a line-level quote ("Then they don't buy the store brand anything") that is not in the extract. | Add the INT05 quote to work/extracts/05_supplier.md and cite it, or soften to "one bad product can cost a category or more". |
-| 7 | Fix the brand *before* adding items (Title 1, sequencing) | Overstated | No interviewee asks for this order. INT02 row 4 says weak items must improve, not that they come first. INT04 rows 2-3 say new items take 9 to 12 months and "need to be decided very soon", so fixing the brand first would use up much of the two years. | Change to "Relaunch the brand in parallel with locking the new-item pipeline now". |
-| 8 | Dairy and frozen cannot double in two years (Title 2) | Overstated | The direct evidence is one plant (INT05 row 1). INT04 row 11 is hearsay about other suppliers. The memo drops INT05's condition ("not realistic *unless they bring in more suppliers*"). The memo body itself admits "we heard from one". | "Dairy and frozen cannot double in two years without new suppliers or about $4M of capital [INT05]". |
-| 9 | Grow dry grocery and household first (Title 2) | Supported | INT04 row 1, INT05 row 11, INT08 row 8 (household paper). | Deal with INT08 naming frozen vegetables as a good starting category (INT06 and INT02 shoppers also want it). This conflicts with putting frozen last. |
-| 10 | Dry grocery has room: one co-packer at about 70% (Title 2 body) | Thin | Only INT04 row 1. INT04 also says "We're a bit unusual. A couple of our competitors are closer to full" (transcript), which undercuts using it for the whole category. | Keep "one co-packer", add INT04's caveat and add dry grocery capacity to "What we still need to find out". |
-| 11 | Set targets by store cluster (Title 3) | Supported | INT08 row 9, INT01 row 12, INT03 row 5. | Title is obvious (it is the VP's own proposal). Give the cluster direction: value stores faster, suburban slower [INT08 transcript, INT02, INT01]. |
-| 12 | Add store brand beside loved brands rather than delisting (Title 3) | Supported | INT06 row 9, INT07 row 8, INT03 row 3, INT01 row 5. | Answer the obvious question of where the shelf space comes from. INT03 says doubling "would mean pulling a lot of brands", and INT08 needs about 400 new items. |
-| 13 | Value store could go higher than 27% (Title 3 body) | Thin | Only INT02 row 1 in the extracts. The INT08 transcript supports it ("value-market stores can probably go faster and higher") but that line is not extracted. | Extract and cite the INT08 line. |
-| 14 | Reinvest part of the margin in a real price gap (Title 4) | Supported | Price gap: INT02 row 10, INT03 row 10, INT06 row 6, INT08 row 11. | "Part" has no number behind it. A 20 to 30% gap against a 7 to 10 point margin premium may use up most of it. Show the math or say it is unknown. |
-| 15 | Headline margin overstates the prize (Title 4) | Supported | INT05 row 8 (smaller in dairy), INT08 row 10 (trade funding lost), INT04 rows 6-7 (paying for spec, packaging cost up 18%). | The body cites only the dairy-specific INT05 quote. Add INT08 trade funding and INT04 spec cost, which make the chain-wide point. |
-| 16 | INT02's price gap quote is set against the margin case ("but one store manager says…") (Title 4 body) | Overstated | INT02 row 5 says private label earns "roughly 8 points more gross margin… sometimes more". INT02 backs the headline margin. The memo presents INT02 as a skeptic. | Present INT02 as confirming the margin, and show the disagreement with INT05 openly. |
-| 17 | Quality matches the brand; specs not cut [INT01, INT02, INT04, INT05, INT08] | Supported | Rows: INT01 11, INT02 4, INT04 5-6, INT05 6-7, INT08 6. | None. |
-| 18 | Packaging refreshed [INT01, INT04, INT06, INT07, INT08] | Supported | INT01 3, INT04 8, INT06 10, INT07 5-6, INT08 4. | None. |
-| 19 | Price gap big enough to feel [INT02, INT03, INT06, INT08] | Supported | INT02 10, INT03 10, INT06 6, INT08 11. | None. |
-| 20 | Reliably in stock [INT01, INT02, INT03, INT04, INT06] | Supported | INT01 8, INT02 8, INT03 6, INT04 12, INT06 11. | None. |
-| 21 | Labor hours for resets [INT01, INT02, INT08] | Supported | INT01 7, INT02 7, INT08 12. | Add the 40 hours per aisle figure [INT01]; it makes the cost concrete. |
-| 22 | Multi-year volume commitments [INT04, INT05, INT08] | Supported | INT04 4, INT05 4, INT08 7. | None. |
-| 23 | Targets flex by cluster and category [INT01, INT03, INT05, INT08] | Supported | INT01 12, INT03 5, INT05 10, INT08 9. | None. |
-| 24 | Category by category, starting where shoppers are ready [INT02, INT08] | Supported | INT02 6, INT08 8. | INT08's example is frozen vegetables. Reconcile with Title 2. |
-| 25 | Loved brands stay on shelf [INT01, INT03, INT06, INT07] | Supported | INT01 5, INT03 3, INT06 8-9, INT07 8. | None. |
-| 26 | Ready stores tested first [INT02, INT03] | Thin | Only INT02 row 11 talks about "ready" stores. INT03 row 12 asks for a test in discounter-exposed stores "to see what the discounter shoppers do", which is a different test and not a ready store (19%, mixed stance). | Split into two items: "ready stores go first [INT02]" and "test in discounter-exposed stores [INT03]". |
-| 27 | Faster supplier payment terms [INT04, INT05] | Supported | INT04 row 10 (60 days on doubled volume strains working capital), INT05 row 12 plus transcript ("Fourth, pay faster"). | None. |
-| 28 | Trial support: samples, guarantees, coupons [INT06, INT07] | Supported | INT06 row 7, INT07 rows 9-10. | Note that both sources are shoppers (n=2). |
-| 29 | Lost trade funding offsets the margin gain (Open questions) | Thin | Only INT08 row 10. It is fine as an open question, but it is also a main reason behind Title 4. | Keep as open; say Finance is already building the model (INT08 transcript). |
+| 1 | Grow private label, but do not double everywhere in two years (Answer) | Supported | Grow: INT02 r1, INT03 r4, INT06 r9, INT07 r7. Not everywhere in two years: INT08 r3, INT03 r5, INT05 r5, INT01 stance. | Say what the target is and when doubling could happen. The client asked "double in two years?", and the answer never gives a number or a date. |
+| 2 | Set a chain target that flexes by store cluster and category (Answer) | Supported | Cluster: INT08 r9. Store: INT01 r12, INT03 r5. Category: INT05 r10, r11. | Give a range, e.g. value stores faster (INT02 at 27%), suburban slower (INT01 at 14%), with the chain at about 19% [INT08 r1]. |
+| 3 | It works only if quality and packaging are fixed, the price gap is visible, shelves stay in stock and suppliers get volume commitments now (Answer) | Supported | Each condition has 3 to 5 interviews (WWHTB rows 21-26 below). "Now" is backed by INT04 r2-3 and INT08 r7. | Labor for resets (INT01 r7, INT02 r7, INT08 r12) is also a 3-interview condition and is missing. Cite the interviews in the answer, not just INT04. |
+| 4 | One co-packer puts new items at 9 to 12 months [INT04] (Answer) | Thin | Only INT04 r2. It is correctly attributed to "one co-packer". | Keep it, and add the implication INT04 r3 states: new items "need to be decided very soon". That is the real action. |
+| 5 | Set the two-year target by store, because interviewees split on whether doubling is realistic (Title 1) | Supported | Split exists. Stretch or unrealistic: INT08 r3, INT03 r5, INT05 r5, INT01 stance. Room or realistic: INT02 r1 and stance, INT04 stance (dry grocery only). | Title says "by store" but the answer says "cluster and category". Align them. INT05 r5 is the strongest skeptic and is missing from the body. Add it. |
+| 6 | The value-store manager disagrees: at about 27%, "could be higher if we had more of it" [INT02] (Title 1 body) | Thin | Only INT02. The quote shows room to grow, not that doubling in two years is realistic. The "overdue" view is in the INT02 stance line only. INT04's dry-grocery view (stance) is the only other voice on this side and is not used. | Add INT04 with its scope ("realistic in dry grocery if items are decided now") so the optimistic side has two voices and the limit is clear. |
+| 7 | Fix failing products and the dated look (Title 2) | Supported | Products: INT08 r6, INT02 r4, INT06 r4, INT07 r2, INT05 r6. Look: INT01 r3, INT04 r8, INT06 r10, INT07 r5-6. | Name the products. Coffee is raised by INT02, INT06, INT07 and INT08. Yogurt is raised by INT01 and INT05. Say "restore specs" [INT04 r5, INT05 r7]. |
+| 8 | Do the fixes while adding items, not before (Title 2) | Supported | INT08 r4 lists new items and redesign as parallel needs. INT04 r2-3 (9 to 12 months, decide now) rule out doing them one after the other. | State the reason in the body and cite INT04 r2-3. |
+| 9 | One bad product costs trust across the line (Title 2, the "because") | Thin | Only INT01 r4 speaks to the whole line. INT06 r5 is limited to one category ("anything for the baby"). The INT08 quote in the body is about overall image, not spillover. | Soften to "one bad product can cost a category or more [INT01, INT06]", or cite INT06 r5 as a second, narrower source. |
+| 10 | Grow first where suppliers have room (Title 3) | Supported | INT04 r1, INT04 r11, INT05 r11. | Name the categories: dry grocery, household, health and beauty [INT05 r11]. |
+| 11 | Secure dairy and frozen supply before pushing those categories (Title 3) | Thin | Only INT05 quotes speak to dairy and frozen (r1-5). INT04's "fresh and frozen are tighter" is in the extract paraphrase and stance, not in its quote. | Say how: a multi-year contract so the supplier can invest (about $4 million, over a year) or new suppliers [INT05 r3-5]. Add the roughly 20% headroom without capital [INT05 r2]. |
+| 12 | The dairy and frozen supplier is at capacity in summer [INT05] (Title 3 body) | Thin | Only INT05 r1. | Add the number that matters for the target: about 20% more volume without capital [INT05 r2]. |
+| 13 | One dry grocery co-packer runs at about 70% but warns not all suppliers have room [INT04] (Title 3 body) | Thin | Only INT04 r1 and r11. It is scoped fairly, which is an improvement on the previous draft. | None beyond the open question already listed. Keep the caveat. |
+| 14 | "This clashes with the VP's wish to start in frozen vegetables" [INT08] (Title 3 body) | Overstated | INT08 r8 says, in hindsight about the snack test, "something like frozen vegetables or household paper". These are examples of low-loyalty categories, not a stated plan. The memo drops household paper, which fits where capacity is [INT05 r11]. INT05 is one dairy and frozen plant whose summer peak is ice cream, so a clash with all frozen vegetables is not shown. | "The VP would start in low-loyalty categories such as frozen vegetables or household paper [INT08]. Household paper fits supplier room [INT05]. Frozen needs supply secured first [INT05]." |
+| 15 | Add store brand beside the brands shoppers love (Title 4) | Supported | INT01 r5, INT03 r3, INT06 r8-9, INT07 r8. | Face the shelf-space trade-off: about 400 new items [INT08 r4] need space, and cutting brand space costs trade funding [INT08 r10]. |
+| 16 | Size the price gap before counting the margin gain (Title 4) | Supported | Gap needed: INT02 r10, r12, INT03 r10, INT06 r6, INT08 r11. Gain erodes: INT08 r10, INT05 r8, INT04 r6. | Put the 20 to 30% figure [INT02 r10] in the title or body, and add spec and packaging costs [INT04 r6, r7]. |
+| 17 | The value-store manager warns of the opposite: shoppers go to the discounter when store brand is missing [INT02] (Title 4 body) | Supported | INT02 r3, and INT03 r2 (price shoppers left for the discounter's private label). | Cite INT03 r2 too. Also, "the opposite" is wrong: both risks can be avoided by adding without delisting. Present it as a store-cluster difference, which supports Title 1. |
+| 18 | PL margin is 32 to 35% vs about 25% for brands [INT08] (Title 4 body) | Supported | INT08 r2. The direction and size are corroborated by INT02 r5 (about 8 points). | Cite INT02 r5 alongside. |
+| 19 | Cutting brand space loses some trade funding [INT08] (Title 4 body) | Thin | Only INT08 r10. | Label it as the VP's view and an input to the margin model. |
+| 20 | The margin gain is "smaller in dairy than people think" [INT05] (Title 4 body) | Thin | Only INT05 r8. It is scoped to dairy correctly. | Pair it with INT05 r9 (value-added dairy is the bigger opportunity), which turns a caveat into an action. |
+| 21 | Quality matches the brand, specs not cut [INT01, INT02, INT04, INT05, INT08] (WWHTB) | Supported | INT01 r11, INT02 r4, INT04 r5-6, INT05 r6-7, INT08 r6. | None. |
+| 22 | Packaging refreshed to look modern [INT01, INT04, INT06, INT07, INT08] (WWHTB) | Supported | INT01 r3, INT04 r8, INT06 r10, INT07 r5-6, INT08 r4. | None. |
+| 23 | A price gap big enough to feel [INT02, INT03, INT06, INT08] (WWHTB) | Supported | INT02 r10, INT03 r10, INT06 r6, INT08 r11. | Add 20 to 30% [INT02]. |
+| 24 | Store brand reliably in stock [INT01, INT02, INT03, INT04, INT06] (WWHTB) | Supported | INT01 r8, INT02 r8, INT03 r6, INT04 r12, INT06 r11. | Add 6% milk out-of-stocks [INT01] and sell-through data sharing [INT04 r12] as the lever. |
+| 25 | Labor hours for resets [INT01, INT02, INT08] (WWHTB) | Supported | INT01 r7, INT02 r7, INT08 r12. | Add 40 labor hours per aisle [INT01]. |
+| 26 | Multi-year volume commitments so suppliers commit capacity [INT04, INT05, INT08] (WWHTB) | Supported | INT04 r4, INT05 r4, INT08 r7. | None. |
+| 27 | Targets flex by store cluster and category [INT01, INT03, INT05, INT08] (WWHTB) | Supported | INT01 r12, INT03 r5, INT05 r10, INT08 r9. | None. |
+| 28 | Roll out category by category, starting where shoppers are ready [INT02, INT08] (WWHTB) | Supported | INT02 r6, INT08 r8. INT01 r2 and INT03 r8 also show where shoppers are not ready. | Reconcile with Title 3 (see row 14). |
+| 29 | Keep the brands shoppers love on the shelf [INT01, INT03, INT06, INT07] (WWHTB) | Supported | INT01 r5, INT03 r3, INT06 r8-9, INT07 r8. | None. |
+| 30 | Test first in ready stores [INT02, INT03] (WWHTB) | Thin | Only INT02 r11 is about "ready" stores. INT03 r12 asks for a different test: discounter-exposed stores, to see if price shoppers come back. INT03's store is at 19% with a mixed stance, so it is not a "ready" store. | Split into "ready stores go first [INT02]" and "test in discounter-exposed stores [INT03]". |
+| 31 | Faster supplier payment terms [INT04, INT05] (WWHTB) | Supported | INT04 r10 (60 days strains working capital on doubled volume), INT05 r12 ("tough" for high fixed costs). | Note that neither extract quote asks for a specific term. |
+| 32 | Trial support such as samples, guarantees or coupons [INT06, INT07] (WWHTB) | Supported | INT06 r7, INT07 r9-10. | Note that both sources are shoppers (n=2). |
 
-The other open questions (dairy supplier capacity, discounter shopper test, category screen) are framed as questions, not claims, so they are not scored.
+The three items under "What we still need to find out" are questions, not claims, so they are not scored. All three are justified by the evidence (INT04 r11, Theme 5, Theme 3).
 
-## Disagreements the memo ignores
-The themes file lists four disagreements. The memo has no disagreement section and brings none of them up.
-* **Pace.** INT02 calls doubling "overdue", and INT04 says it is realistic in dry grocery "if they start now and they commit". INT08 says doubling is "possible over a longer horizon". The answer reads as if everyone agreed that doubling is off the table.
-* **Margin size.** INT02 (8+ points, "sometimes more") and INT05 ("smaller in dairy") disagree. The memo hides this by presenting INT02 as the skeptic (row 16).
-* **What drives shoppers away.** INT02 says shoppers leave when *store brand* is missing ("they go to the discounter up the street"). INT01 and INT03 say they leave when *brands* are missing. The memo shows only the second view, which supports going slow. The first view supports going faster in value stores.
-* **Frozen.** INT08 wants to start in frozen vegetables. INT05 (who makes Northfield's frozen vegetables) is capacity-constrained. Title 2 does not address this.
-* Upstream: work/themes.md scores every theme "Against: 0" even though its own disagreement section lists four splits. The counts should be fixed.
+Counts: Supported 22 (rows 1-3, 5, 7, 8, 10, 15-18, 21-29, 31, 32), Thin 9 (rows 4, 6, 9, 11, 12, 13, 19, 20, 30), Overstated 1 (row 14), Unsupported 0.
+
+## Disagreements: does the memo name who disagrees and quote them?
+Yes on the main splits. It overstates one and leaves some voices out.
+* **Pace (named and quoted, one-sided on evidence).** INT08 and INT03 are quoted against INT02. The skeptic side leaves out INT05 r5 ("doubling in two years is not realistic" for dairy and frozen), the strongest line. The optimistic side leaves out INT04 (realistic in dry grocery only). Adding both would show that the split is by category as well as by store.
+* **What drives shoppers away (named and quoted, framed wrongly).** INT03 r3 and INT02 r3 are both quoted. Calling INT02 "the opposite" misses that INT03 says both things (r2 and r3). This is a store-cluster difference, not a contradiction.
+* **Where to start (overstated).** See row 14. The VP is paraphrased, not quoted, and half of the VP's example is dropped.
+* **Margin prize (quoted, but on different scopes).** INT08's chain-wide figure is set against INT05's dairy-only view. These can both be true. INT02's 8 points is not used.
+* **Brand image depends on the category (ignored).** The memo's "embarrassed" framing (INT08 r5) takes no account of INT07 r1 (canned tomatoes "just as good"), INT03 r9 (store-brand deli beats the brands) or INT02 r9 ("now they think it's smart"). These are where to start, and they are missing.
+
+## Are the Support/Mixed/Against counts in work/themes.md credible?
+Partly. The arithmetic is fixed, but dissent is undercounted.
+* **Theme 1 (8/0/0):** Against or Mixed 0 ignores INT07 r1, INT03 r9 and INT02 r9. The title's "one bad product costs trust across the line" rests on INT01 alone, not 8 interviews.
+* **Theme 2 (6/1/0):** Credible. INT04 as Mixed is fair. The quote label "(Against; INT04 is Mixed ...)" is confusing and should just say Mixed.
+* **Theme 3 (3/0/1):** Undercounted. INT05 r5 should be Support. INT04 (realistic in dry grocery only) should be Mixed.
+* **Theme 4 (6/0/0):** Not credible. INT02 is counted as Support, but the file's own "Where interviewees disagree" section uses INT02 as the opposing voice on what drives shoppers away. INT02 should be Mixed or Against.
+* **Theme 5 (4/1/0):** INT03 is counted as Support on a price-gap quote (r10) that says nothing about the margin prize. At best it is indirect.
+* **Theme 6 (5/0/0):** Plausible. The memo drops this theme, apart from the labor bullet.
 
 ## Does the answer follow from the evidence?
-Partly. "Don't double chain-wide in two years; flex by cluster and category; four enabling conditions" follows. The 25% number does not follow:
-* It is a peer benchmark presented as an INT08 recommendation.
-* It is never checked against the constraints the memo cites. INT05 has about 20% volume headroom without capital, and capital means $4M and "well over a year". New items take 9 to 12 months [INT04]. The HQ private label team is small [INT04 row 9], and the VP says it would need to at least double (INT08 transcript).
-* It leaves out the VP's time frame (double over a longer horizon). The board asked about doubling, so the memo should say when doubling could happen, not just drop it.
+Mostly, but it stops short.
+* "Grow, flex by cluster and category, subject to conditions" follows from the evidence.
+* The case for growing at all is not made in the body. Northfield at about 19% against a peer average of about 25% [INT08 r1] and the discounter taking about 9% of transactions for its private label [INT03 r1-2] are the reasons to grow. Neither appears.
+* The answer gives no target number and no time frame. The evidence is enough to sketch one: stores run from about 14% [INT01] to about 27% [INT02]. INT03 would be happy in the mid-twenties from 19% [INT03 r4]. Dairy and frozen have about 20% headroom without capital [INT05 r2]. Doubling needs about 400 items [INT08 r4] at 9 to 12 months each [INT04 r2].
+* Labor (a 3-interview condition) and HQ team capacity [INT04 r9] are missing from the answer.
 
 ## Action titles a partner would push back on
-* **Title 1** "Fix the brand before adding items": "Fix the brand" is vague and the order conflicts with the lead times. Suggest: "Restore specs on coffee and the other named failures and redesign packaging now, in parallel with locking the new-item pipeline".
-* **Title 3** "Set targets by store cluster, and add store brand beside loved brands": this is obvious and was the VP's own idea. It also skips the shelf-space question. State the cluster targets or at least the direction and order.
-* **Title 4** "Reinvest part of the margin": "part" is vague. A partner will ask what the net prize is after the price gap, spec upgrades, packaging and lost trade funding. Either give a range or say plainly that it is the key unknown.
-* **"What would have to be true"** has 12 bullets of equal weight. A partner will want the 3 or 4 that bind (supplier capacity and lead time, the brand and spec reset, price-gap economics).
+* **Title 1** "Set the two-year target by store, because interviewees split": setting 120 separate store targets is not workable, and it conflicts with the answer's "cluster". "Interviewees split" is not a reason. The reasons are different starting points (14% vs 27%) and category capacity. Suggest: "Set faster targets for value stores and slower ones for suburban stores, with dairy and frozen capped until supply is secured."
+* **Title 2**: fair, but "failing products" should name coffee and yogurt and say "restore specs".
+* **Title 3**: "where suppliers have room" and "secure supply" are vague. Name dry grocery, household and health and beauty, and say how supply is secured (a multi-year contract or new suppliers).
+* **Title 4**: "Add store brand beside the brands shoppers love" is obvious and skips the shelf-space and trade-funding trade-off. It also joins two separate actions. Split it, and put the 20 to 30% gap in the pricing title.
+* **What would have to be true**: 12 bullets of equal weight. A partner will want the 3 or 4 that bind: decide the new-item list now, supplier capacity by category, the spec and packaging reset, and the price-gap economics.
 
-## Material omissions from the themes and extracts
-* New items must be decided very soon given 9 to 12 month lead times [INT04 rows 2-3]. This is central to any two-year answer.
-* HQ private label team capacity [INT04 row 9; INT08 transcript "we'd have to at least double the team"]. Theme 6 covers this, but the memo drops it.
-* Dairy and frozen needs $4M of capital and over a year, or new suppliers [INT05 rows 3, 5].
-* Bigger private label case packs do not fit small rural back rooms [INT03 row 7].
+## Material omissions
+* HQ private label team is small [INT04 r9]. Theme 6 is otherwise dropped.
+* Share sell-through data with suppliers to cut out-of-stocks [INT04 r12].
+* Dairy and frozen headroom of about 20% without capital, and about $4 million and over a year to go further [INT05 r2-3].
+* Spec cost [INT04 r6] and packaging costs up about 18% [INT04 r7], which cut into the margin premium.
+* Larger case packs do not fit rural back rooms [INT03 r7].
+* Fresh and deli [INT03 r9] and value-added dairy [INT05 r9] are opportunities.
