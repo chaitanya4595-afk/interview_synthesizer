@@ -27,6 +27,11 @@ Why it matters for the case question: <one sentence>
 
 (repeat for each theme)
 
+## Conditions for success
+List every condition any interviewee says must be true for the plan to work.
+* <condition>: raised by [INTxx, INTxx]. "<exact quote>" [INTxx]. Numbers: <any figures given>
+
+
 ## Where interviewees disagree
 * <topic>: [INTxx] says ..., while [INTxx] says ...
 

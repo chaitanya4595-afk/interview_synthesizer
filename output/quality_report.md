@@ -1,7 +1,7 @@
 # Quality report
 
-**Quote pass rate:** 110/110 (100.0%)  
-**Number pass rate:** 23/23 (100.0%)
+**Quote pass rate:** 101/101 (100.0%)  
+**Number pass rate:** 22/22 (100.0%)
 
 ## Quote check
 
@@ -101,24 +101,15 @@ Each quote is checked word for word against its transcript in input/, ignoring w
 | PASS | INT08 | work/extracts/08_category_vp.md row 10 | "I'd set the target at the chain level but let it flex by store cluster." |  |
 | PASS | INT08 | work/extracts/08_category_vp.md row 11 | "I'd estimate we could lose a meaningful part of trade funds in the categories we shift most aggressively." |  |
 | PASS | INT08 | work/extracts/08_category_vp.md row 12 | "If we can find the handful of categories that tick all three boxes, we can build momentum and show the board it's working." |  |
-| PASS | INT08 | output/memo.md line 5 | "roughly 400 new items, a full packaging redesign, significant supplier investment, and store resets across every store" |  |
 | PASS | INT03 | output/memo.md line 5 | "a headquarters number, not a store number" |  |
-| PASS | INT04 | output/memo.md line 5 | "In dry grocery, I think it's realistic if they start now and they commit." |  |
-| PASS | INT08 | output/memo.md line 8 | "You can't double share with a brand people are embarrassed to put in their cart." |  |
-| PASS | INT04 | output/memo.md line 8 | "Honestly, quality is usually a spec problem, not a manufacturing problem." |  |
-| PASS | INT04 | output/memo.md line 11 | "about 70% utilization right now, so there's room." |  |
-| PASS | INT05 | output/memo.md line 11 | "close to 90%" |  |
-| PASS | INT04 | output/memo.md line 11 | "a multi-year agreement with minimum volumes" |  |
-| PASS | INT08 | output/memo.md line 14 | "around 32 to 35%, compared to about 25% on the comparable national brands" |  |
-| PASS | INT02 | output/memo.md line 14 | "20 to 30% under the brand, not five cents." |  |
-| PASS | INT08 | output/memo.md line 14 | "could lose a meaningful part of trade funds" |  |
-| PASS | INT02 | output/memo.md line 17 | "We're kind of stuck in the middle if we don't move." |  |
-| PASS | INT03 | output/memo.md line 17 | "If I take their ketchup off the shelf, I'm giving them a reason to leave too." |  |
-| PASS | INT02 | output/memo.md line 20 | "roughly 8 points more" |  |
-| PASS | INT04 | output/memo.md line 20 | "a few points lower than they hoped" |  |
-| PASS | INT02 | output/memo.md line 21 | "trade down in real time" |  |
-| PASS | INT01 | output/memo.md line 21 | "People here don't really shop us on price, honestly." |  |
-| PASS | INT02 | output/memo.md line 22 | "as good as the brand" |  |
+| PASS | INT04 | output/memo.md line 5 | "In dry grocery, I think it's realistic if they start now and they commit" |  |
+| PASS | INT08 | output/memo.md line 8 | "You can't double share with a brand people are embarrassed to put in their cart" |  |
+| PASS | INT01 | output/memo.md line 8 | "You lose somebody on one product and they don't try the next one" |  |
+| PASS | INT05 | output/memo.md line 11 | "is not realistic unless they bring in more suppliers" |  |
+| PASS | INT08 | output/memo.md line 14 | "lose a meaningful part of trade funds" |  |
+| PASS | INT02 | output/memo.md line 14 | "The price gap has to be real, like 20 to 30% under the brand, not five cents" |  |
+| PASS | INT03 | output/memo.md line 17 | "If I take their ketchup off the shelf, I'm giving them a reason to leave too" |  |
+| PASS | INT01 | output/memo.md line 17 | "People here don't really shop us on price, honestly" |  |
 
 ## Number check
 
@@ -140,12 +131,11 @@ Every number in an extract claim must appear in that row's quote or Numbers colu
 | PASS | 60 | work/extracts/05_supplier.md row 9 | 60-day payment terms are hard on a high-fixed-cost supplier. |  |
 | PASS | 19 | work/extracts/08_category_vp.md row 1 | Private label is about 19% of chain sales today. |  |
 | PASS | 400 | work/extracts/08_category_vp.md row 5 | Doubling in two years would need about 400 new items, new packaging, supplier investment and chain-wide resets. |  |
-| PASS | 400 | output/memo.md line 5 | It needs "roughly 400 new items, a full packaging redesign, significant supplier investment, and store resets across every store" [INT08]. Stores see "a headquarters number, not a store number" [INT03]. The one dissent is category-specific: "In dry grocery, I think it's realistic if they start now and they commit." [INT04] |  |
-| PASS | 70 | output/memo.md line 11 | Dry grocery lines run at "about 70% utilization right now, so there's room." [INT04] Dairy runs "close to 90%" [INT05]. Suppliers want "a multi-year agreement with minimum volumes" [INT04]. |  |
-| PASS | 90 | output/memo.md line 11 | Dry grocery lines run at "about 70% utilization right now, so there's room." [INT04] Dairy runs "close to 90%" [INT05]. Suppliers want "a multi-year agreement with minimum volumes" [INT04]. |  |
-| PASS | 32 | output/memo.md line 14 | Store brand earns "around 32 to 35%, compared to about 25% on the comparable national brands" [INT08], but the gap must be "20 to 30% under the brand, not five cents." [INT02] Northfield "could lose a meaningful part of trade funds" [INT08]. |  |
-| PASS | 35 | output/memo.md line 14 | Store brand earns "around 32 to 35%, compared to about 25% on the comparable national brands" [INT08], but the gap must be "20 to 30% under the brand, not five cents." [INT02] Northfield "could lose a meaningful part of trade funds" [INT08]. |  |
-| PASS | 25 | output/memo.md line 14 | Store brand earns "around 32 to 35%, compared to about 25% on the comparable national brands" [INT08], but the gap must be "20 to 30% under the brand, not five cents." [INT02] Northfield "could lose a meaningful part of trade funds" [INT08]. |  |
-| PASS | 20 | output/memo.md line 14 | Store brand earns "around 32 to 35%, compared to about 25% on the comparable national brands" [INT08], but the gap must be "20 to 30% under the brand, not five cents." [INT02] Northfield "could lose a meaningful part of trade funds" [INT08]. |  |
-| PASS | 30 | output/memo.md line 14 | Store brand earns "around 32 to 35%, compared to about 25% on the comparable national brands" [INT08], but the gap must be "20 to 30% under the brand, not five cents." [INT02] Northfield "could lose a meaningful part of trade funds" [INT08]. |  |
-| PASS | 8 | output/memo.md line 20 | * Net margin by category: estimates run from "roughly 8 points more" [INT02] to "a few points lower than they hoped" [INT04]. |  |
+| PASS | 400 | output/memo.md line 5 | INT08 calls it "a stretch in two years" needing "roughly 400 new items" plus resets in every store [INT08]. INT03 calls it "a headquarters number, not a store number" [INT03]. INT04 disagrees: "In dry grocery, I think it's realistic if they start now and they commit" [INT04]. |  |
+| PASS | 70 | output/memo.md line 11 | INT04 reports about 70% utilization; INT05 runs "close to 90% most of the year" and says doubling there "is not realistic unless they bring in more suppliers" [INT05]. INT04 wants "a multi-year agreement with minimum volumes" first [INT04]. |  |
+| PASS | 90 | output/memo.md line 11 | INT04 reports about 70% utilization; INT05 runs "close to 90% most of the year" and says doubling there "is not realistic unless they bring in more suppliers" [INT05]. INT04 wants "a multi-year agreement with minimum volumes" first [INT04]. |  |
+| PASS | 32 | output/memo.md line 14 | INT08 cites 32 to 35% gross margin versus about 25% for brands, but expects to "lose a meaningful part of trade funds" [INT08]. INT02 warns: "The price gap has to be real, like 20 to 30% under the brand, not five cents" [INT02]. |  |
+| PASS | 35 | output/memo.md line 14 | INT08 cites 32 to 35% gross margin versus about 25% for brands, but expects to "lose a meaningful part of trade funds" [INT08]. INT02 warns: "The price gap has to be real, like 20 to 30% under the brand, not five cents" [INT02]. |  |
+| PASS | 25 | output/memo.md line 14 | INT08 cites 32 to 35% gross margin versus about 25% for brands, but expects to "lose a meaningful part of trade funds" [INT08]. INT02 warns: "The price gap has to be real, like 20 to 30% under the brand, not five cents" [INT02]. |  |
+| PASS | 20 | output/memo.md line 14 | INT08 cites 32 to 35% gross margin versus about 25% for brands, but expects to "lose a meaningful part of trade funds" [INT08]. INT02 warns: "The price gap has to be real, like 20 to 30% under the brand, not five cents" [INT02]. |  |
+| PASS | 30 | output/memo.md line 14 | INT08 cites 32 to 35% gross margin versus about 25% for brands, but expects to "lose a meaningful part of trade funds" [INT08]. INT02 warns: "The price gap has to be real, like 20 to 30% under the brand, not five cents" [INT02]. |  |
