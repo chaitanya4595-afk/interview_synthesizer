@@ -1,14 +1,16 @@
 # Interview Synthesizer
 
-[Profile](https://github.com/kcrokkam) · [All projects](https://github.com/kcrokkam/agentic-ai-projects)
+[About me](https://github.com/kcrokkam) · [My other projects](https://github.com/kcrokkam/agentic-ai-projects)
 
-Turns a folder of interview transcripts into themes and a one-page partner memo in about 7 minutes, with every quote and number checked against the source.
+I built this to turn a folder of interview transcripts into themes and a one-page memo while keeping the underlying evidence easy to inspect. I added a Python checker for quotes and numbers, then a separate critic step to flag claims that go beyond the source.
+
+The workflow runs in Claude Code. I tested it on eight synthetic interviews and kept the intermediate files, quality reports, and changes in this repository.
 
 **Review the output:** [Sample memo](output/memo.md) · [Quote and number checks](output/quality_report.md) · [Critic review](output/critic_review.md)
 
 ## The problem
 
-Consultants synthesize interview transcripts by hand. It is slow, and quotes drift: they get paraphrased, tidied up or attached to the wrong person on the way into the deck.
+I wanted to address a common problem in interview synthesis: a quote can be shortened, paraphrased, or attributed to the wrong person as it moves from a transcript into a summary. I designed the workflow to keep extraction, thematic analysis, and memo writing as separate steps, with source checks after drafting.
 
 ## How it works
 
@@ -22,9 +24,9 @@ Run `/synthesize` in Claude Code. It runs five steps in order:
 
 Each step writes a file so a person can check any stage, and each step can be rerun on its own.
 
-## Results
+## What I measured
 
-Test case: 8 synthetic interviews for a fictional grocer deciding whether to double its private label share.
+I used 8 synthetic interviews for a fictional grocer deciding whether to double its private label share. These are development runs, not a benchmark on real interview data.
 
 | | v1.0 (clean run) | v1.1 (partial rerun) |
 |---|---|---|
@@ -37,7 +39,7 @@ The v1.1 numbers come from a rerun from the themes step onward, not a clean `/sy
 
 Overstated claims in the memo went from 8 of 23 in the first memo, to 4 of 29 in v1.0, to 1 of 32 in v1.1.
 
-Full history: [BUILD_LOG.md](BUILD_LOG.md).
+I recorded the changes and failed approaches in [BUILD_LOG.md](BUILD_LOG.md).
 
 ## What I learned
 
