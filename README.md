@@ -1,8 +1,10 @@
 # Interview Synthesizer
 
+[Profile](https://github.com/kcrokkam) · [All projects](https://github.com/kcrokkam/agentic-ai-projects)
+
 Turns a folder of interview transcripts into themes and a one-page partner memo in about 7 minutes, with every quote and number checked against the source.
 
-Demo video: _link to come_
+**Review the output:** [Sample memo](output/memo.md) · [Quote and number checks](output/quality_report.md) · [Critic review](output/critic_review.md)
 
 ## The problem
 
@@ -48,7 +50,7 @@ Full history: [BUILD_LOG.md](BUILD_LOG.md).
 1. Install [Claude Code](https://claude.com/claude-code) and Python 3.
 2. Clone the repo:
    ```
-   git clone https://github.com/chaitanya4595-afk/interview_synthesizer.git
+   git clone https://github.com/kcrokkam/interview_synthesizer.git
    cd interview_synthesizer
    ```
 3. Put your transcripts in `input/` as `.txt` files. Each one starts with a line like `Interview ID: INT01`.
